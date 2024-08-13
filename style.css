@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+button {
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    cursor: pointer;
+    background-color: transparent;
+    top: 365px;
+    border: none;
+    color: transparent;
+}
+
+p {
+    position: relative;
+    bottom: 240px;
+    font-size: 1.3rem;
+    width: 500px;
+}
